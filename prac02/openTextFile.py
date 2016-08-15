@@ -1,0 +1,5 @@
+openText = open('name.txt', mode='w')
+name = input("Please Enter your name: ")
+print(name, file=openText)
+print("Your name is: ", name, file=openText)
+openText.close()
